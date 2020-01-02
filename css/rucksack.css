@@ -1,4 +1,4 @@
-// Text Utilities
+/* ** Text Utilities ** */
 
 .text-left {
     text-align: left
@@ -64,7 +64,7 @@
     word-wrap: break-word
 }
 
-// Typography 
+/* ** Typography ** */
 
 code {
     background: #fcf2f2;
@@ -162,7 +162,7 @@ sup {
     top: -.5em
 }
 
-// Pagination
+/* ** Pagination ** */
 
 .pagination {
     display: flex;
@@ -223,7 +223,7 @@ sup {
     opacity: .5
 }
 
-// Empty States
+/* ** Empty States ** */
 
 .empty {
     background: #f7f8f9;
@@ -246,7 +246,7 @@ sup {
     margin-top: .8rem
 }
 
-// Chips
+/* ** Chips ** */
 
 .chip {
     align-items: center;
@@ -283,7 +283,7 @@ sup {
     transform: scale(.75)
 }
 
-// Cards
+/* ** Cards ** */
 
 .card {
     background: #fff;
@@ -331,7 +331,7 @@ sup {
     border-bottom-right-radius: .1rem
 }
 
-// Bars
+/* ** Bars ** */
 
 .bar {
     background: #eef0f3;
@@ -374,7 +374,7 @@ sup {
     flex-shrink: 1
 }
 
-// Badges
+/* ** Badges ** */
 
 .badge {
     position: relative;
@@ -426,7 +426,7 @@ sup {
     z-index: 100
 }
 
-// Avatars
+/* ** Avatars ** */
 
 .avatar {
     background: #5755d9;
@@ -518,7 +518,7 @@ sup {
     z-index: 1
 }
 
-// Heros
+/* ** Heros ** */
 
 .hero {
     display: flex;
@@ -545,7 +545,7 @@ sup {
     padding: .4rem
 }
 
-// Figure
+/* ** Figure ** */
 
 .figure {
     margin: 0 0 .4rem 0
@@ -556,7 +556,7 @@ sup {
     margin-top: .4rem
 }
 
-// Image and Video
+/* ** Image and Video ** */
 
 .img-responsive {
     display: block;
@@ -617,7 +617,7 @@ video.video-responsive::before {
 }
 
 
-// Cursors
+/* ** Cursors ** */
 
 .c-hand {
     cursor: pointer
@@ -643,7 +643,7 @@ video.video-responsive::before {
     cursor: auto
 }
 
-// Divider
+/* ** Divider ** */
 
 .divider,
 .divider-vert {
@@ -697,7 +697,7 @@ video.video-responsive::before {
 }
 
 
-// Steps
+/* ** Steps ** */
 
 .step {
     display: flex;
@@ -767,7 +767,7 @@ video.video-responsive::before {
     background: #dadee4
 }
 
-// Tabs
+/* ** Tabs ** */
 
 .tab {
     align-items: center;
@@ -836,7 +836,7 @@ video.video-responsive::before {
     padding-right: 0
 }
 
-// Tiles
+/* ** Tiles ** */
 
 .tile {
     align-content: space-between;
@@ -888,7 +888,7 @@ video.video-responsive::before {
     white-space: nowrap
 }
 
-// Experimental - Calendar
+/* ** Experimental - Calendar ** */
 
 .calendar {
     border: .05rem solid #dadee4;
@@ -1111,7 +1111,7 @@ video.video-responsive::before {
     white-space: nowrap
 }
 
-// Experimental Comparison Slider
+/* ** Experimental Comparison Slider ** */
 
 .comparison-slider {
     height: 50vh;
@@ -1231,7 +1231,7 @@ video.video-responsive::before {
     }
 }
 
-// Experimental - Content Filter
+/* ** Experimental - Content Filter ** */
 
 .filter .filter-tag#tag-0:checked~.filter-nav .chip[for=tag-0],
 .filter .filter-tag#tag-1:checked~.filter-nav .chip[for=tag-1],
@@ -1268,7 +1268,7 @@ video.video-responsive::before {
     flex-wrap: wrap
 }
 
-// Experimental - Off Canvas
+/* ** Experimental - Off Canvas ** */
 
 .off-canvas {
     display: flex;
@@ -1349,7 +1349,7 @@ video.video-responsive::before {
     }
 }
 
-// Experimental - Timeline
+/* ** Experimental - Timeline ** */
 
 .timeline .timeline-item {
     display: flex;
@@ -1414,7 +1414,7 @@ video.video-responsive::before {
     content: none
 }
 
-// Grid System - X Grid
+/* ** Grid System - X Grid ** */
 
 .grid-container {
   padding-right: 0.9375rem;
