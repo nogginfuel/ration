@@ -1,71 +1,99 @@
-/* ** Text Utilities ** */
-
-.text-left {
-    text-align: left
-}
-
-.text-right {
-    text-align: right
-}
-
-.text-center {
-    text-align: center
-}
-
-.text-justify {
-    text-align: justify
-}
-
-.text-lowercase {
-    text-transform: lowercase
-}
-
-.text-uppercase {
-    text-transform: uppercase
-}
-
-.text-capitalize {
-    text-transform: capitalize
-}
-
-.text-normal {
-    font-weight: 400
-}
-
-.text-bold {
-    font-weight: 700
-}
-
-.text-italic {
-    font-style: italic
-}
-
-.text-large {
-    font-size: 1.2em
-}
-
-.text-ellipsis {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap
-}
-
-.text-clip {
-    overflow: hidden;
-    text-overflow: clip;
-    white-space: nowrap
-}
-
-.text-break {
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-    word-break: break-word;
-    word-wrap: break-word
-}
-
 /* ** Typography ** */
 
+h1 {
+	font-size: 2.25rem;
+  letter-spacing: .27rem;
+  word-spacing: .36rem;
+  line-height: 4.5rem;
+  margin-bottom: 2.25rem;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 2rem;
+  letter-spacing: .24rem;
+  word-spacing: .32rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 1.75rem;
+  letter-spacing: .21rem;
+  word-spacing: .28rem;
+  line-height: 2.625rem;
+  margin-bottom: 1.75rem;
+	font-weight: 400;
+}
+
+
+h4 {
+	font-size: 1.5rem;
+  letter-spacing: .18rem;
+  word-spacing: .24rem;
+  line-height: 2.25rem;
+  margin-bottom: 1.5rem;
+	font-weight: 400;
+}
+h5 {
+	font-size: 1.25rem;
+  letter-spacing: .15rem;
+  word-spacing: .2rem;
+  line-height: 1.875rem;
+  margin-bottom: 1.25rem;
+	font-weight: 400;
+}
+h6 {
+	font-size: 1.1rem;
+  letter-spacing: .132rem;
+  word-spacing: .176rem;
+  line-height: 1.65rem;
+  margin-bottom: 1.1rem;
+	font-weight: 400;
+}  
+p {
+  font-size: .8750rem;
+  letter-spacing: .105rem;
+  word-spacing: .14rem;
+  line-height: 1.313rem;
+  margin-bottom: 1.75rem;
+	font-weight: 400;
+}
+p:last-of-type { /* reduces bottom spacing for last paragraph parent */
+  margin-bottom: 0rem;
+}
+ol, ul, dl { /* dl Definition Lists mostly used in Legal Docs */
+  font-size: .8750rem;
+  letter-spacing: .105rem;
+  word-spacing: .14rem;
+  line-height: 1.313rem;
+  margin-bottom: 1.53rem;
+	font-weight: 400;
+}
+li {
+  font-size: .8750rem;
+  letter-spacing: .105rem;
+  word-spacing: .14rem;
+  line-height: 1.313rem;
+  margin-bottom: 1.53rem;
+	font-weight: 400;
+}
+dd { 
+  font-size: .8750rem;
+  letter-spacing: .105rem;
+  word-spacing: .14rem;
+  line-height: 1.313rem;
+  margin-bottom: 1.53rem;
+	font-weight: 400;
+}
+dt{ 
+  font-size: .8750rem;
+  letter-spacing: .105rem;
+  word-spacing: .14rem;
+  line-height: 1.313rem;
+	font-weight: 700;
+}
 code {
     background: #fcf2f2;
     border-radius: .1rem;
@@ -160,6 +188,119 @@ sub {
 
 sup {
     top: -.5em
+}
+
+.stat { /* For Large Visual Numbers & Statistics */
+  display: block;
+  font-size: 2rem;
+  letter-spacing: .24rem;
+  word-spacing: .32rem;
+  line-height: 3rem;
+  margin-bottom: .125rem;
+	font-weight: 600;
+}
+
+.label {
+    display: inline-block;
+    padding: .33333rem .5rem;
+    border-radius: 0;
+    font-size: .8rem;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: default;
+    background: #1779ba;
+    color: #fefefe
+}
+
+.label.primary {
+    background: #1779ba;
+    color: #fefefe
+}
+
+.label.secondary {
+    background: #767676;
+    color: #fefefe
+}
+
+.label.success {
+    background: #3adb76;
+    color: #0a0a0a
+}
+
+.label.warning {
+    background: #ffae00;
+    color: #0a0a0a
+}
+
+.label.alert {
+    background: #cc4b37;
+    color: #fefefe
+}
+
+/* ** Text Utilities ** */
+
+.text-left {
+    text-align: left
+}
+
+.text-right {
+    text-align: right
+}
+
+.text-center {
+    text-align: center
+}
+
+.text-justify {
+    text-align: justify
+}
+
+.text-lowercase {
+    text-transform: lowercase
+}
+
+.text-uppercase {
+    text-transform: uppercase
+}
+
+.text-capitalize {
+    text-transform: capitalize
+}
+
+.text-normal {
+    font-weight: 400
+}
+
+.text-bold {
+    font-weight: 700
+}
+
+.text-italic {
+    font-style: italic
+}
+
+.text-large {
+    font-size: 1.2em
+}
+
+.text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.text-clip {
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap
+}
+
+.text-break {
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    word-break: break-word;
+    word-wrap: break-word
 }
 
 /* ** Navigation ** */
