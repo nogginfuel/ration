@@ -1,56 +1,50 @@
 /* ** Typography ** */
 
 h1 {
-	font-size: 2.25rem;
+  font-size: 2.25rem;
   letter-spacing: .27rem;
   word-spacing: .36rem;
   line-height: 4.5rem;
-  margin-bottom: 2.25rem;
-	font-weight: 400;
+  font-weight: 400;
 }
 
 h2 {
-	font-size: 2rem;
+  font-size: 2rem;
   letter-spacing: .24rem;
   word-spacing: .32rem;
   line-height: 3rem;
-  margin-bottom: 2rem;
-	font-weight: 400;
+  font-weight: 400;
 }
 
 h3 {
-	font-size: 1.75rem;
+  font-size: 1.75rem;
   letter-spacing: .21rem;
   word-spacing: .28rem;
   line-height: 2.625rem;
-  margin-bottom: 1.75rem;
-	font-weight: 400;
+  font-weight: 400;
 }
 
 
 h4 {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
   letter-spacing: .18rem;
   word-spacing: .24rem;
   line-height: 2.25rem;
-  margin-bottom: 1.5rem;
-	font-weight: 400;
+  font-weight: 400;
 }
 h5 {
-	font-size: 1.25rem;
+  font-size: 1.25rem;
   letter-spacing: .15rem;
   word-spacing: .2rem;
   line-height: 1.875rem;
-  margin-bottom: 1.25rem;
-	font-weight: 400;
+  font-weight: 400;
 }
 h6 {
-	font-size: 1.1rem;
+  font-size: 1.1rem;
   letter-spacing: .132rem;
   word-spacing: .176rem;
   line-height: 1.65rem;
-  margin-bottom: 1.1rem;
-	font-weight: 400;
+  font-weight: 400;
 }  
 p {
   font-size: .8750rem;
@@ -68,31 +62,28 @@ ol, ul, dl { /* dl Definition Lists mostly used in Legal Docs */
   letter-spacing: .105rem;
   word-spacing: .14rem;
   line-height: 1.313rem;
-  margin-bottom: 1.53rem;
-	font-weight: 400;
+  font-weight: 400;
 }
 li {
   font-size: .8750rem;
   letter-spacing: .105rem;
   word-spacing: .14rem;
   line-height: 1.313rem;
-  margin-bottom: 1.53rem;
-	font-weight: 400;
+  font-weight: 400;
 }
 dd { 
   font-size: .8750rem;
   letter-spacing: .105rem;
   word-spacing: .14rem;
   line-height: 1.313rem;
-  margin-bottom: 1.53rem;
-	font-weight: 400;
+  font-weight: 400;
 }
 dt{ 
   font-size: .8750rem;
   letter-spacing: .105rem;
   word-spacing: .14rem;
   line-height: 1.313rem;
-	font-weight: 700;
+  font-weight: 700;
 }
 code {
     background: #fcf2f2;
